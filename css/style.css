@@ -1,0 +1,41 @@
+*{
+    margin: 0 auto;
+    padding: 0%;
+    text-align: center;
+    background-image: url(/cronometro/cronometro/img/fundo-site-maturitha.png);
+    background-attachment: fixed;
+    background-color: teal;
+}
+.display{
+    max-width: 500px;
+    padding: 50px;
+    box-sizing: border-box;   
+}
+button{
+    width: 130px;
+    height: 40px;
+    font: bold 1.3rem serif;
+    background: #000;
+    color: rgb(255, 196, 0);
+    outline: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+#contador{
+    border-radius: 25%;
+    background:rgb(255, 196, 0);
+    padding: 20px;
+    font-size: 80px; 
+}    
+#inciar:hover{
+    background-color: rgb(130, 214, 3);
+    color: black;   
+}
+#parar:hover{
+    background-color: red;
+    color: black;
+}
+#pausar:hover{
+    background-color: yellow;
+    color: black;
+}
